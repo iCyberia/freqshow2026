@@ -19,7 +19,7 @@ Credit to original to Tony DiCola & Carter Nelson & Adafruit
 ## Screenshots
 
 ### Main Display
-![Settings UI](screenshots/freqshow-shot-20260317-084903.png)
+![Settings UI](screenshots/freqshow-shot-20260317-085056.png)
 
 ## What This Build Focuses On
 
