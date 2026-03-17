@@ -1,0 +1,22 @@
+{
+  "center_freq_hz": 99500000,
+  "sample_rate_index": 0,
+  "gain_index": 14,
+  "display_min_db": -3.0,
+  "display_max_db": 15.0,
+  "wf_speed_index": 0,
+  "wf_avg_index": 2,
+  "brightness_index": 9,
+  "tune_step_index": 0,
+  "squelch_level": 1,
+  "last_settings_selected": 2,
+  "filter_median": true,
+  "filter_temporal_avg": false,
+  "filter_noise_floor": false,
+  "filter_peak_hold": false,
+  "filter_center_notch": false,
+  "filter_adaptive_threshold": false,
+  "filter_freq_smoothing": false,
+  "filter_impulse_blanking": false,
+  "filter_display_clamp": true
+}

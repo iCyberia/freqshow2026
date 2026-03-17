@@ -1,0 +1,8 @@
+numpy
+pygame
+Pillow
+gpiozero
+lgpio
+spidev
+setuptools<82
+pyrtlsdr==0.2.93

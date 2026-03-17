@@ -1,0 +1,6043 @@
+{
+  "bands": [
+    {
+      "key": "2m",
+      "label": "2m",
+      "repeaters": [
+        {
+          "freq_mhz": 147.09,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Altamonte Springs",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.285,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Altamonte Springs",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.97,
+          "offset": "-",
+          "access": "CSQ",
+          "location": "Anthony",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.015,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Apopka",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.075,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Arcadia",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.18,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Arcadia",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.21,
+          "offset": "+",
+          "access": "118.8",
+          "location": "Aventura",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 147.375,
+          "offset": "+",
+          "access": "97.4",
+          "location": "Aventura",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.33,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Avon Park, National Guard Armory",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.285,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Bell",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.12,
+          "offset": "+",
+          "access": "NAC 293 110.9",
+          "location": "Belle Glade",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.21,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Bennett",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.88,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Bennett",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.23,
+          "offset": "-",
+          "access": "94.8",
+          "location": "Big Pine Key",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 145.37,
+          "offset": "-",
+          "access": "CC 1 110.9",
+          "location": "Big Pine Key",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.23,
+          "offset": "-",
+          "access": "D411",
+          "location": "Bithlo",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.29,
+          "offset": "-",
+          "access": "110.9",
+          "location": "Boca Raton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.39,
+          "offset": "+",
+          "access": "NAC 293 110.9",
+          "location": "Boca Raton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.82,
+          "offset": "-",
+          "access": "110.9",
+          "location": "Boca Raton, Boca Regional Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.11,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Bonifay",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.91,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Bonifay",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.285,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Bonita Springs, Bonita Springs Fire Department",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.225,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Boynton Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.82,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Bradenton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.195,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Bradenton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.61,
+          "offset": "-",
+          "access": "141.3",
+          "location": "Brandon",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.715,
+          "offset": "-",
+          "access": "94.8",
+          "location": "Bristol",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.715,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Brooksville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.075,
+          "offset": "+",
+          "access": "NAC 293 103.5",
+          "location": "Brooksville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.835,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Bryceville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.39,
+          "offset": "-",
+          "access": "",
+          "location": "Bunnell",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.45,
+          "offset": "-",
+          "access": "88.5",
+          "location": "Bunnell",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.49,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Bushnell",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.31,
+          "offset": "-",
+          "access": "",
+          "location": "Callahan",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.0,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Callahan",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.03,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Callahan",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.61,
+          "offset": "-",
+          "access": "136.5",
+          "location": "Cape Coral",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.225,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Cape Coral",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.23,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Carrabelle, Water Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.39,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Chiefland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.625,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Chipley",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.165,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Chuluota",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.03,
+          "offset": "+",
+          "access": "156.7",
+          "location": "Clearwater",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.14,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Clewiston",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 145.35,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Clewiston",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.76,
+          "offset": "-",
+          "access": "97.4",
+          "location": "Clewiston, Clewiston Inn",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.37,
+          "offset": "-",
+          "access": "156.7",
+          "location": "Cocoa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.36,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Cocoa, Parrish Med Ctr",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 146.76,
+          "offset": "-",
+          "access": "94.8",
+          "location": "Coral Gables",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 147.15,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Coral Gables",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.24,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Coral Gables",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 145.27,
+          "offset": "-",
+          "access": "NAC 110 110.9",
+          "location": "Coral Springs",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.655,
+          "offset": "-",
+          "access": "131.8",
+          "location": "Coral Springs",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.45,
+          "offset": "-",
+          "access": "94.8",
+          "location": "Crawfordville, Riversink Elementary School",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.19,
+          "offset": "-",
+          "access": "NAC 49 127.3",
+          "location": "Crescent City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.15,
+          "offset": "-",
+          "access": "",
+          "location": "Crestview",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 147.36,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Crestview",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.11,
+          "offset": "-",
+          "access": "146.2",
+          "location": "Crystal River",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 147.06,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Cudjoe Key",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.135,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Dade City, Pasco County EMA",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.64,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Dania Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.15,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Daytona Beach, Halifax Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.375,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Daytona Beach, Old WESH2 tower in Holly Hill",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.24,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Daytona Beach, Volusia County EOC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.285,
+          "offset": "+",
+          "access": "100.0",
+          "location": "DeFuniak Springs",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.375,
+          "offset": "+",
+          "access": "100.0",
+          "location": "DeFuniak Springs",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.315,
+          "offset": "+",
+          "access": "103.5",
+          "location": "DeLand, Hugh Ash Manor",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.0,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Destin",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.985,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Dundee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.23,
+          "offset": "-",
+          "access": "146.2",
+          "location": "Dunedin",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 146.7,
+          "offset": "-",
+          "access": "146.2",
+          "location": "Dunedin",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.805,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Durbin",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.12,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Eglin AFB",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.805,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Englewood",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.25,
+          "offset": "-",
+          "access": "136.5",
+          "location": "Englewood, WENG Radio Sta Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.745,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Espanola",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.895,
+          "offset": "-",
+          "access": "NAC 293 103.5",
+          "location": "Eustis",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.18,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Eustis",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.36,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Fernandina Beach",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 146.73,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Fort Lauderdale",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.91,
+          "offset": "-",
+          "access": "110.9",
+          "location": "Fort Lauderdale",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 147.33,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Fort Lauderdale",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.34,
+          "offset": "-",
+          "access": "110.9",
+          "location": "Fort Lauderdale, Point of Americas",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.79,
+          "offset": "-",
+          "access": "NAC 293 88.5",
+          "location": "Fort Lauderdale, Port Everglades",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.105,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Fort Lauderdale, Port Everglades",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.165,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Fort McCoy",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.17,
+          "offset": "-",
+          "access": "136.5",
+          "location": "Fort Myers",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.39,
+          "offset": "-",
+          "access": "136.5",
+          "location": "Fort Myers",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.88,
+          "offset": "-",
+          "access": "136.5",
+          "location": "Fort Myers",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.82,
+          "offset": "-",
+          "access": "136.5",
+          "location": "Fort Myers, FGCU",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.165,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Fort Myers, Lee County EOC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.345,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Fort Myers, Lehigh Reg Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.775,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Fort Pierce",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.24,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Fort Pierce, EOC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.345,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Fort Pierce, WQCS-FM Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.655,
+          "offset": "-",
+          "access": "CSQ",
+          "location": "Fort Walton Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.79,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Fort Walton Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.165,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Gadsden",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.685,
+          "offset": "-",
+          "access": "CC 1 123.0",
+          "location": "Gainesville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.91,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Gainesville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.82,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Gainesville, Devils Millhopper GSP",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.985,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Gainesville, Devils Millhopper GSP",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.64,
+          "offset": "-",
+          "access": "CC 1",
+          "location": "Gainesville, WCJB Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.255,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Grassy Key",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.39,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Greensboro",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.345,
+          "offset": "+",
+          "access": "NAC 293 103.5",
+          "location": "Groveland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.33,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Gulf Hammock",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.105,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Hawthorne",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.33,
+          "offset": "-",
+          "access": "CSQ",
+          "location": "Hialeah",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.37,
+          "offset": "-",
+          "access": "CC 1 110.9",
+          "location": "Hialeah",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.7,
+          "offset": "-",
+          "access": "156.7",
+          "location": "Hialeah",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.745,
+          "offset": "-",
+          "access": "94.8",
+          "location": "Hines",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.625,
+          "offset": "-",
+          "access": "NAC 293 110.9",
+          "location": "Hobe Sound",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.15,
+          "offset": "-",
+          "access": "146.2",
+          "location": "Holiday",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.06,
+          "offset": "+",
+          "access": "CC 1 123.0",
+          "location": "Hollister",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.655,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Holly Hill",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.21,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Hollywood",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 147.03,
+          "offset": "+",
+          "access": "NAC A55 103.5",
+          "location": "Hollywood",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.18,
+          "offset": "+",
+          "access": "91.5",
+          "location": "Hollywood, Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.97,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Homestead",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.73,
+          "offset": "-",
+          "access": "110.9",
+          "location": "Indiantown",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 145.22,
+          "offset": "-",
+          "access": "",
+          "location": "Inglis",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 146.7,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Jacksonville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.76,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Jacksonville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.955,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Jacksonville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.135,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Jacksonville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.39,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Jacksonville Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.29,
+          "offset": "-",
+          "access": "CC 0 127.3",
+          "location": "Jacksonville, I-95/Old St Augustine Rd",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.88,
+          "offset": "-",
+          "access": "",
+          "location": "Jacksonville, I-95/Old St Augustine Rd",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 145.17,
+          "offset": "-",
+          "access": "110.9",
+          "location": "Jupiter Farms",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.45,
+          "offset": "-",
+          "access": "110.9",
+          "location": "Kendall Lakes",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.61,
+          "offset": "-",
+          "access": "94.8",
+          "location": "Key Largo",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.165,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Key Largo",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.17,
+          "offset": "-",
+          "access": "CC 1 110.9",
+          "location": "Key West",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.13,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Keystone Heights",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.225,
+          "offset": "+",
+          "access": "156.7",
+          "location": "Keystone Heights, County Roads Yard",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.15,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Kissimmee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.21,
+          "offset": "+",
+          "access": "D411",
+          "location": "Kissimmee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.47,
+          "offset": "-",
+          "access": "97.4",
+          "location": "LaBelle, EOC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.11,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Lake Buena Vista",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 147.3,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Lake Buena Vista, Walt Disney World",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.73,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Lake Butler, Union County Waste Control",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.49,
+          "offset": "-",
+          "access": "",
+          "location": "Lake City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.94,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Lake City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.15,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Lake City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.18,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Lake City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.21,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Lake Placid",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.045,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Lake Placid, Happiness Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.33,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Lake Wales",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.27,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Lakeland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.655,
+          "offset": "-",
+          "access": "NAC 293 127.3",
+          "location": "Lakeland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.685,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Lakeland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.865,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Lakeland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.375,
+          "offset": "+",
+          "access": "NAC 293 127.3",
+          "location": "Lakeland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.33,
+          "offset": "-",
+          "access": "146.2",
+          "location": "Land O Lakes, High School",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.17,
+          "offset": "-",
+          "access": "156.7",
+          "location": "Largo",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.97,
+          "offset": "-",
+          "access": "RAN 1 146.2",
+          "location": "Largo",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 147.105,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Layton, City Hall",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.955,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Lecanto",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.775,
+          "offset": "-",
+          "access": "146.2",
+          "location": "Lecanto, Key Training Center",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.11,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Lee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.19,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Lee",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 147.0,
+          "offset": "+",
+          "access": "NAC 293 103.5",
+          "location": "Leesburg",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.37,
+          "offset": "-",
+          "access": "",
+          "location": "Lehigh Acres",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 146.715,
+          "offset": "-",
+          "access": "74.4",
+          "location": "Lehigh Acres",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.64,
+          "offset": "-",
+          "access": "94.8",
+          "location": "Little Torch Key",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.41,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Live Oak",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.195,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Longwood",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.36,
+          "offset": "+",
+          "access": "NAC 293 110.9",
+          "location": "Loxahatchee, 20 Mile Bend/Lion Country Safari",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.09,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Macclenny",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.23,
+          "offset": "-",
+          "access": "CC 0 110.9",
+          "location": "Mangonia Park",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.94,
+          "offset": "-",
+          "access": "91.5",
+          "location": "Mangonia Park",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.985,
+          "offset": "-",
+          "access": "141.3",
+          "location": "Marco Island",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.67,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Marianna",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.61,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Melbourne, Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.47,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Melbourne, Truist Bldg",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.13,
+          "offset": "-",
+          "access": "",
+          "location": "Miami",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 145.19,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.28,
+          "offset": "-",
+          "access": "",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.33,
+          "offset": "-",
+          "access": "",
+          "location": "Miami",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 146.7,
+          "offset": "-",
+          "access": "156.7",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.85,
+          "offset": "-",
+          "access": "156.7",
+          "location": "MIAMI",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.865,
+          "offset": "-",
+          "access": "94.8",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.925,
+          "offset": "-",
+          "access": "NAC A55 103.5",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.09,
+          "offset": "+",
+          "access": "",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.3,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Miami Gardens",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.49,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Milton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.7,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Milton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.25,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Milton, NAS Whiting Field",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.625,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Mims",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.775,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Mims",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.225,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Minneola",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.23,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Miramar Beach, Surfside Condos",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.43,
+          "offset": "-",
+          "access": "94.8",
+          "location": "Monticello",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.3,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Moore Haven, Glades County CourtHouse",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.33,
+          "offset": "+",
+          "access": "D023",
+          "location": "Munson, Hwy 4/ Munson Hwy",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.49,
+          "offset": "-",
+          "access": "",
+          "location": "Naples",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.64,
+          "offset": "-",
+          "access": "136.5",
+          "location": "Naples",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.85,
+          "offset": "-",
+          "access": "141.3",
+          "location": "Naples",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.03,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Naples",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.505,
+          "offset": "-",
+          "access": "67.0",
+          "location": "Naples",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.3,
+          "offset": "-",
+          "access": "136.5",
+          "location": "Naples, Collier County BES",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 145.27,
+          "offset": "-",
+          "access": "",
+          "location": "Naples, Marbella",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.35,
+          "offset": "-",
+          "access": "146.2",
+          "location": "New Port Richey, Pasco Co Gov Ctr",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.67,
+          "offset": "-",
+          "access": "146.2",
+          "location": "New Port Richey, Pasco Co Gov Ctr",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.33,
+          "offset": "-",
+          "access": "127.3",
+          "location": "New Smyrna, South Causeway Bridge",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.225,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Niceville, Duke Field AFB",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.425,
+          "offset": "-",
+          "access": "156.7",
+          "location": "North Fort Myers, NFM",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.135,
+          "offset": "+",
+          "access": "127.3",
+          "location": "North Miami Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.67,
+          "offset": "-",
+          "access": "136.5",
+          "location": "North Naples, Pelican Bay",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.12,
+          "offset": "+",
+          "access": "136.5",
+          "location": "North Port",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 145.17,
+          "offset": "-",
+          "access": "",
+          "location": "Ocala",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.43,
+          "offset": "-",
+          "access": "141.3",
+          "location": "Ocala",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.61,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Ocala",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.79,
+          "offset": "-",
+          "access": "",
+          "location": "Ocala",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.33,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Ocala, Marion Co Transfer Station",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.27,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Ocala, MRMC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.21,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Ocala, Ocala National Forest",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.09,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Okeechobee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.195,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Okeechobee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.925,
+          "offset": "-",
+          "access": "156.7",
+          "location": "Orange Park, Fleming Island",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.73,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Orange Park, Hospital",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 146.67,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Orange Park, WAYR Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.13,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.45,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.73,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.76,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.82,
+          "offset": "-",
+          "access": "",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.06,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.12,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.15,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Orlando, WPOZ Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.27,
+          "offset": "-",
+          "access": "NAC 61 156.7",
+          "location": "Ormond Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.865,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Ormond Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.27,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Ormond Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.25,
+          "offset": "-",
+          "access": "D411",
+          "location": "Oviedo",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.37,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Palatka",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.345,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Palatka, SR-207, US Hwy 17",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.895,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Palm Bay",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.255,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Palm Bay",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.85,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Palm Bay, Palm Bay",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.47,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Palm Coast",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.075,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Palm Coast",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.715,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Palm Coast, Advent Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.11,
+          "offset": "-",
+          "access": "146.2",
+          "location": "Palm Harbor",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 147.12,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Palm Harbor",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.25,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Panama City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.33,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Panama City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.745,
+          "offset": "-",
+          "access": "",
+          "location": "Panama City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.06,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Panama City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.94,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Panama City, Bay County EOC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.11,
+          "offset": "-",
+          "access": "110.9",
+          "location": "Parkland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.76,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Pensacola",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.85,
+          "offset": "-",
+          "access": "CC 1",
+          "location": "Pensacola",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.45,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Pensacola, Fire Sta 16",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.61,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Pensacola, I-10 MP 5",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.35,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Perry",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.97,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Perry",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.375,
+          "offset": "+",
+          "access": "",
+          "location": "Perry",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.2,
+          "offset": "+",
+          "access": "NAC 293",
+          "location": "Plant City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.21,
+          "offset": "+",
+          "access": "131.8",
+          "location": "Plantation",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.715,
+          "offset": "-",
+          "access": "94.8",
+          "location": "Plantation Key",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.715,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Poinciana",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.61,
+          "offset": "-",
+          "access": "110.9",
+          "location": "Pompano Beach, John Knox Village",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.015,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Ponte Vedra",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.255,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Port Charlotte",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.865,
+          "offset": "-",
+          "access": "136.5",
+          "location": "Port Charlotte, Charlotte Co Sports Complex",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.835,
+          "offset": "-",
+          "access": "146.2",
+          "location": "Port Richey",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.865,
+          "offset": "-",
+          "access": "CC 1 100.0",
+          "location": "Port Saint Joe",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.3,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Port Saint Joe",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.34,
+          "offset": "-",
+          "access": "156.7",
+          "location": "Port Saint John",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 145.27,
+          "offset": "+",
+          "access": "151.4",
+          "location": "Port Saint Lucie",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.925,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Port Saint Lucie",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 147.015,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Port Saint Lucie",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.955,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Port Saint Lucie, WAVW Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.835,
+          "offset": "-",
+          "access": "94.8",
+          "location": "Princeton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.0,
+          "offset": "-",
+          "access": "94.8",
+          "location": "Princeton, WTVJ Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.685,
+          "offset": "-",
+          "access": "136.5",
+          "location": "Punta Gorda",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.745,
+          "offset": "-",
+          "access": "136.5",
+          "location": "Punta Gorda",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.685,
+          "offset": "-",
+          "access": "136.5",
+          "location": "Punta Gorda, EOC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.165,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Riverview",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.515,
+          "offset": "s",
+          "access": "CSQ",
+          "location": "Riviera Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.88,
+          "offset": "-",
+          "access": "NAC 293 110.9",
+          "location": "Riviera Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.135,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Rockledge",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.88,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Rockledge, Rockledge Reg Med Center",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.17,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Saint Augustine",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.21,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Saint Augustine, EOC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.625,
+          "offset": "-",
+          "access": "CSQ",
+          "location": "Saint Augustine, Fish Island",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.35,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Saint Cloud",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.79,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Saint Cloud",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.88,
+          "offset": "-",
+          "access": "146.2",
+          "location": "Saint Leo, Saint Leo University",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.31,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Saint Petersburg",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.39,
+          "offset": "-",
+          "access": "141.3",
+          "location": "Saint Petersburg",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.06,
+          "offset": "+",
+          "access": "CSQ",
+          "location": "Saint Petersburg, Pinellas Park",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.16,
+          "offset": "-",
+          "access": "",
+          "location": "Sanford",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.805,
+          "offset": "-",
+          "access": "103.5",
+          "location": "Sanford",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.79,
+          "offset": "-",
+          "access": "136.5",
+          "location": "Sanibel Island",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.91,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Sarasota",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.39,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Sarasota",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.73,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Sarasota, Comcast Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.67,
+          "offset": "-",
+          "access": "94.8",
+          "location": "Scout Key",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.27,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Sebring, Highlands County EOC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.85,
+          "offset": "-",
+          "access": "146.2",
+          "location": "Seminole",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.13,
+          "offset": "-",
+          "access": "107.2",
+          "location": "South Vero Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.76,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Spring Hill",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.805,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Spring Hill, Oak Hill Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.15,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Starke, Bradford County EOC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.345,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Stock Island",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.15,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Stuart, EOC Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.06,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Stuart, SFHS",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.44,
+          "offset": "-",
+          "access": "",
+          "location": "Stuart, Stuart Public Services",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.925,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Sumterville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.03,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Sumterville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.225,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Sun City Center",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.2625,
+          "offset": "+",
+          "access": "",
+          "location": "Sun City Center, Kings Point Retirement Community",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.45,
+          "offset": "-",
+          "access": "NAC 293 162.2",
+          "location": "Sun City Center, Sun Towers",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.13,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Sunny Isles Beach",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 146.61,
+          "offset": "-",
+          "access": "203.5",
+          "location": "Tallahassee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.655,
+          "offset": "-",
+          "access": "NAC 293 94.8",
+          "location": "Tallahassee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.91,
+          "offset": "-",
+          "access": "NAC 293 94.8",
+          "location": "Tallahassee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.03,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Tallahassee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.285,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Tallahassee, State EOC",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 145.41,
+          "offset": "-",
+          "access": "CC 5 131.8",
+          "location": "Tampa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.79,
+          "offset": "-",
+          "access": "146.2",
+          "location": "Tampa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.94,
+          "offset": "-",
+          "access": "NAC 293 146.2",
+          "location": "Tampa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.01,
+          "offset": "+",
+          "access": "",
+          "location": "Tampa",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 147.345,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Tampa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.105,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Tampa, Hillsborough EOC Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.255,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Tavares",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.39,
+          "offset": "+",
+          "access": "NAC 293 103.5",
+          "location": "Tavares",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.11,
+          "offset": "-",
+          "access": "107.2",
+          "location": "The Villages",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.21,
+          "offset": "-",
+          "access": "110.9",
+          "location": "The Villages",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.67,
+          "offset": "-",
+          "access": "103.5",
+          "location": "The Villages",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.85,
+          "offset": "-",
+          "access": "NAC 293 103.5",
+          "location": "The Villages",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.97,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Titusville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.075,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Titusville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.94,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Titusville, KSC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.33,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Titusville, Parrish Med Ctr",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.91,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Titusville, Water Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.865,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Treasure Island",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.73,
+          "offset": "-",
+          "access": "CSQ",
+          "location": "Valparaiso",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 145.13,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Venice, Laurel Rd/I-75",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.43,
+          "offset": "-",
+          "access": "100.0",
+          "location": "Verna",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.4,
+          "offset": "-",
+          "access": "",
+          "location": "Vero Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.64,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Vero Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.31,
+          "offset": "-",
+          "access": "107.2",
+          "location": "Vero Beach, Indian River Med Center",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.625,
+          "offset": "-",
+          "access": "127.3",
+          "location": "Wauchula",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.36,
+          "offset": "+",
+          "access": "97.4",
+          "location": "Webster",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.045,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Weeki Wachee, Weeki Wachee Springs State Park",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.27,
+          "offset": "-",
+          "access": "123.0",
+          "location": "Wellborn",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 145.19,
+          "offset": "-",
+          "access": "CC 2 103.5",
+          "location": "Wellington",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.285,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Wellington",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.045,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Wellington, Palms West Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.29,
+          "offset": "-",
+          "access": "146.2",
+          "location": "Wesley Chapel, I-75 Exit 279",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.32,
+          "offset": "-",
+          "access": "",
+          "location": "West Palm Beach",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 146.97,
+          "offset": "-",
+          "access": "162.2",
+          "location": "West Palm Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.315,
+          "offset": "+",
+          "access": "NAC 293 110.9",
+          "location": "West Palm Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 145.39,
+          "offset": "-",
+          "access": "NAC 293 110.9",
+          "location": "West Palm Beach, Jail",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.67,
+          "offset": "-",
+          "access": "110.9",
+          "location": "West Palm Beach, Sewage Processing Plant",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.715,
+          "offset": "-",
+          "access": "110.9",
+          "location": "West Palm Beach, Solid Waste Authority",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 147.075,
+          "offset": "+",
+          "access": "NAC 293 110.9",
+          "location": "West Palm Beach, The Square",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.94,
+          "offset": "-",
+          "access": "71.9",
+          "location": "Wildwood, The Villages",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 146.91,
+          "offset": "-",
+          "access": "146.2",
+          "location": "Zephyrhills",
+          "status": "Operational"
+        }
+      ]
+    },
+    {
+      "key": "70cm",
+      "label": "70cm",
+      "repeaters": [
+        {
+          "freq_mhz": 442.75,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Altamonte Springs",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.975,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Altamonte Springs",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.825,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Andytown",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.325,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Anthony",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Apalachicola",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.4125,
+          "offset": "+",
+          "access": "",
+          "location": "Arcadia",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.2,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Arcadia",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.075,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Ave Maria",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 443.3375,
+          "offset": "+",
+          "access": "CC 3 110.9",
+          "location": "Aventura",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.825,
+          "offset": "+",
+          "access": "114.8",
+          "location": "Aventura",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Aventura",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.15,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Aventura, Aventura Mall",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.825,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Avon Park, Bombing Range",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.35,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Avon Park, Lake Denton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.6,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Babcock Ranch",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.1375,
+          "offset": "+",
+          "access": "RAN 1",
+          "location": "Bartow",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.825,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Bartow",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4875,
+          "offset": "+",
+          "access": "",
+          "location": "Bartow",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.05,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Belleair",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.375,
+          "offset": "+",
+          "access": "NAC 6 110.9",
+          "location": "Big Pine Key",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.0,
+          "offset": "+",
+          "access": "CC 8",
+          "location": "Boca Raton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.875,
+          "offset": "+",
+          "access": "CC 1 110.9",
+          "location": "Boca Raton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.2,
+          "offset": "+",
+          "access": "CC 1 110.9",
+          "location": "Boca Raton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.1,
+          "offset": "+",
+          "access": "CC 10",
+          "location": "Boca Raton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.75,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Boca Raton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.65,
+          "offset": "+",
+          "access": "CC 1 100.0",
+          "location": "Bonifay, Holmes EOC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.75,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Bonita Springs",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 441.85,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Boynton Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.1,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Boynton Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.65,
+          "offset": "+",
+          "access": "CC 2",
+          "location": "Boynton Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 441.875,
+          "offset": "+",
+          "access": "",
+          "location": "Bradenton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.225,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Bradenton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.275,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Bradenton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.875,
+          "offset": "+",
+          "access": "82.5",
+          "location": "Bradenton, Mixons Fruit Farm",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.125,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Bradenton, Water Tank",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.675,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Brandon",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.125,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Brooksville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.175,
+          "offset": "+",
+          "access": "NAC 293 103.5",
+          "location": "Brooksville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.825,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Brooksville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.0,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Bunnell",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.425,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Cape Coral",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.725,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Cape Coral",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.975,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Chattahoochee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.2,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Chipley",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.75,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Chipley",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.625,
+          "offset": "+",
+          "access": "D411",
+          "location": "Christmas",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 440.05,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Clearwater",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.05,
+          "offset": "+",
+          "access": "141.3",
+          "location": "Clearwater",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.375,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Clearwater",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4675,
+          "offset": "+",
+          "access": "",
+          "location": "Clearwater",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.45,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Clermont",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.475,
+          "offset": "+",
+          "access": "CC 0 103.5",
+          "location": "Clermont",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.975,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Clermont",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.45,
+          "offset": "+",
+          "access": "CC 0",
+          "location": "Clermont, Citrus Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.6,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Clermont, South Lake Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Clewiston",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.375,
+          "offset": "+",
+          "access": "",
+          "location": "Clewiston, Montura Ranches",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.65,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Cocoa Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.4,
+          "offset": "+",
+          "access": "CC 1 131.8",
+          "location": "Coral Ridge",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 443.85,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Coral Springs",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.575,
+          "offset": "+",
+          "access": "131.8",
+          "location": "Coral Springs",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.7,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Countryside",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.45,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Crawfordville, WCSO",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.95,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Crescent City, Fruitland Intersection",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.95,
+          "offset": "+",
+          "access": "D023",
+          "location": "Crestview",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.0,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Crestview",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.6,
+          "offset": "+",
+          "access": "",
+          "location": "Crestview",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.95,
+          "offset": "+",
+          "access": "D023",
+          "location": "Crestview, Comunication Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Crestview, Hwy 85/Hwy 90",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.4125,
+          "offset": "+",
+          "access": "CC 2",
+          "location": "Cutler Bay",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.325,
+          "offset": "+",
+          "access": "CC 14 100.0",
+          "location": "Cutler bay",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.6875,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Dade City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.75,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Dade City, Pasco County EMA",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.6,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Dade City, University",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.625,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Davenport",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.3,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Davie",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 443.675,
+          "offset": "+",
+          "access": "131.8",
+          "location": "Davie",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.125,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Daytona Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.85,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Daytona Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.2125,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Daytona Beach, Halifax Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.425,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Deerfield Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.75,
+          "offset": "+",
+          "access": "",
+          "location": "DeFuniak Springs",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.225,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "DeLand",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.8,
+          "offset": "+",
+          "access": "88.5",
+          "location": "DeLand",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.3,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Delray Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.6125,
+          "offset": "+",
+          "access": "CC 15",
+          "location": "Drew Park",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.875,
+          "offset": "+",
+          "access": "",
+          "location": "Duette",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.425,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Dundee, Water Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.15,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Dunedin",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.35,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Dunedin",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.975,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Dunedin",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.8,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Eglin AFB",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.1,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Englewood",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.125,
+          "offset": "+",
+          "access": "131.8",
+          "location": "Estero",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.775,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Estero",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.875,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Eustis",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.45,
+          "offset": "+",
+          "access": "",
+          "location": "Fort Lauderdale",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.5,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Fort Lauderdale",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.55,
+          "offset": "+",
+          "access": "131.8",
+          "location": "Fort Lauderdale",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 443.5875,
+          "offset": "+",
+          "access": "CC 7",
+          "location": "Fort Lauderdale",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.625,
+          "offset": "+",
+          "access": "CC 1 110.9",
+          "location": "Fort Lauderdale",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.75,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Fort Lauderdale",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.8,
+          "offset": "+",
+          "access": "131.8",
+          "location": "Fort Lauderdale",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.05,
+          "offset": "+",
+          "access": "",
+          "location": "Fort Lauderdale",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.825,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Fort Lauderdale",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.85,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Fort Lauderdale, 110 Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.2,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Fort Lauderdale, Point of Americas",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.4,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Fort Lauderdale, Port Everglades",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.425,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Fort Lauderdale, Port Everglades",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.375,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Fort McCoy",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.8125,
+          "offset": "+",
+          "access": "CC 0",
+          "location": "Fort Meade",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.175,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Fort Myers",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.225,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Fort Myers",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.45,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Fort Myers",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.1375,
+          "offset": "+",
+          "access": "CC 9",
+          "location": "Fort Myers",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.45,
+          "offset": "+",
+          "access": "",
+          "location": "Fort Myers",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.225,
+          "offset": "+",
+          "access": "NAC 293 136.5",
+          "location": "Fort Myers",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.45,
+          "offset": "+",
+          "access": "77.0",
+          "location": "Fort Myers",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.675,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Fort Myers, Lee County EOC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.5,
+          "offset": "+",
+          "access": "",
+          "location": "Fort Pierce",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.6,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Fort Pierce",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.8,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Fort Pierce",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9875,
+          "offset": "+",
+          "access": "CC 14",
+          "location": "Fort Pierce",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.45,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Fort Walton Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.95,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Frostproof",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.525,
+          "offset": "+",
+          "access": "",
+          "location": "Gainesville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.8125,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Gainesville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.925,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Gainesville, Devils Millhopper GSP",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.05,
+          "offset": "+",
+          "access": "",
+          "location": "Gainesville, WCJB Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.5875,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Gainesville, WCJB Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.8375,
+          "offset": "+",
+          "access": "CC 1 123.0",
+          "location": "Gainesville, WCJB Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9875,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Gainesville, WCJB Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.0125,
+          "offset": "+",
+          "access": "NAC 293",
+          "location": "Gainesville, WCJB-TV Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 440.05,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Grand Island",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 441.525,
+          "offset": "+",
+          "access": "CC 8 127.3",
+          "location": "Grassy Key",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.125,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Greensboro",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9875,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Greensboro",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.35,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Groveland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.05,
+          "offset": "+",
+          "access": "CC 1 103.5",
+          "location": "Groveland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.375,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Hialeah",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.65,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Hialeah",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.925,
+          "offset": "+",
+          "access": "CC 1 110.9",
+          "location": "Hialeah",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.225,
+          "offset": "+",
+          "access": "67.0",
+          "location": "Hialeah",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.35,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Hialeah",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 441.85,
+          "offset": "+",
+          "access": "D205",
+          "location": "Hialeah, Palmetto Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.45,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Holiday",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.9,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Hollister",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.575,
+          "offset": "+",
+          "access": "CC 7 103.5",
+          "location": "Hollywood",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.775,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Hollywood",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.9,
+          "offset": "+",
+          "access": "88.5",
+          "location": "Hollywood",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 443.3,
+          "offset": "+",
+          "access": "",
+          "location": "Hollywood",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.175,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Hollywood",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.55,
+          "offset": "+",
+          "access": "88.5",
+          "location": "Hollywood",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.15,
+          "offset": "+",
+          "access": "88.5",
+          "location": "Hollywood, Mem Reg Hosp",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.0125,
+          "offset": "+",
+          "access": "NAC A55 D565",
+          "location": "Homestead",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.3875,
+          "offset": "+",
+          "access": "CC 9",
+          "location": "Homestead",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Homestead",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.4,
+          "offset": "+",
+          "access": "114.8",
+          "location": "Homosassa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.15,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Homosassa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.45,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Indiantown",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.05,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Inverness, Citrus Mem Hospital",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.85,
+          "offset": "+",
+          "access": "114.8",
+          "location": "Islamorada",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.0,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Jacksonville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Jacksonville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.7,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Jacksonville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.825,
+          "offset": "+",
+          "access": "156.7",
+          "location": "Jacksonville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.425,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Jacksonville Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.675,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Jacksonville, CSX Bldg",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.2,
+          "offset": "+",
+          "access": "NAC 293 127.3",
+          "location": "Jacksonville, Dames Point Bridge",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.425,
+          "offset": "+",
+          "access": "CC 7",
+          "location": "Jacksonville, Downtown",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.925,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Jacksonville, I-95/Old St Augustine Rd",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.275,
+          "offset": "+",
+          "access": "CC 7 D411",
+          "location": "Jacksonville, SJRPP",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.85,
+          "offset": "+",
+          "access": "131.8",
+          "location": "Jacksonville, USS Orleck",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 443.825,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Jupiter",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9375,
+          "offset": "+",
+          "access": "CC 3",
+          "location": "Jupiter, DuBois Park",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.9,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Kathleen",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.025,
+          "offset": "+",
+          "access": "",
+          "location": "Kendale",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.41,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Kendall",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.425,
+          "offset": "+",
+          "access": "CC 0",
+          "location": "Kendall",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.625,
+          "offset": "+",
+          "access": "97.4",
+          "location": "Kendall",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.2125,
+          "offset": "+",
+          "access": "CC 0",
+          "location": "Key Largo",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.875,
+          "offset": "+",
+          "access": "CC 11 94.8",
+          "location": "Key Largo, Transfer Station",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.1375,
+          "offset": "+",
+          "access": "CC 0",
+          "location": "Key West",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.1,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Key West",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.55,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Key West",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.425,
+          "offset": "+",
+          "access": "CC 1 100.0",
+          "location": "Key West",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.1,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Kissimmee",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.45,
+          "offset": "+",
+          "access": "D411",
+          "location": "Kissimmee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.65,
+          "offset": "+",
+          "access": "103.5",
+          "location": "LaBelle",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.55,
+          "offset": "+",
+          "access": "CC 1 146.2",
+          "location": "Lady Lake, Silver Lake",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.5,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Lake Buena Vista, Walt Disney World",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.575,
+          "offset": "+",
+          "access": "CC 3 103.5",
+          "location": "Lake Buena Vista, Walt Disney World",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.0,
+          "offset": "+",
+          "access": "CC 3",
+          "location": "Lake Buena Vista, Walt Disney World",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.425,
+          "offset": "+",
+          "access": "CC 6",
+          "location": "Lake City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.6,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Lake City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.875,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Lake City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Lake City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 440.25,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Lake Mary",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.075,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Lake Mary, FDOT Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.7375,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Lake Placid, Happiness Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.95,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Lake Placid, Happiness Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.525,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Lake Worth",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.85,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Lake Worth",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.025,
+          "offset": "+",
+          "access": "RAN 45",
+          "location": "Lakeland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.275,
+          "offset": "+",
+          "access": "82.5",
+          "location": "Lakeland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.675,
+          "offset": "+",
+          "access": "CC 1 114.8",
+          "location": "Lakeland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.975,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Lakeland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.6625,
+          "offset": "+",
+          "access": "RAN 1",
+          "location": "Lakeland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.775,
+          "offset": "+",
+          "access": "CC 0",
+          "location": "Lakeland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.85,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Lakeland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.875,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Lakewood Ranch",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.975,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Lantana",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.15,
+          "offset": "+",
+          "access": "RAN 3",
+          "location": "Largo",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.925,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Largo",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.4,
+          "offset": "+",
+          "access": "156.7",
+          "location": "Largo",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.7,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Laurel, US 41/SR 681",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 443.375,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Lecanto",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.025,
+          "offset": "+",
+          "access": "CC 1 103.5",
+          "location": "Leesburg",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.6,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Lehigh Acres",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.8,
+          "offset": "+",
+          "access": "82.5",
+          "location": "Lehigh Acres",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.5,
+          "offset": "+",
+          "access": "67.0",
+          "location": "Lehigh Acres",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.575,
+          "offset": "+",
+          "access": "67.0",
+          "location": "Lehigh Acres",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.5,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Lithia",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.86,
+          "offset": "+",
+          "access": "88.5",
+          "location": "Lithia, County Fire Station #2",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.325,
+          "offset": "+",
+          "access": "RAN 2",
+          "location": "Lithia, HCFD Fire Station#2",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.925,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Live Oak",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.6,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Live Oak",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.7,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Live Oak",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.45,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Long Key",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.725,
+          "offset": "+",
+          "access": "NAC 293 110.9",
+          "location": "Loxahatchee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.3,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Loxahatchee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.35,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Loxahatchee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.875,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Macclenny",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.075,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Macclenny",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.3,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Madison",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.325,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Mangonia Park",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.1875,
+          "offset": "+",
+          "access": "CC 0",
+          "location": "Marathon",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.025,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Marathon",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.7875,
+          "offset": "+",
+          "access": "CC 8 94.8",
+          "location": "Marathon",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.85,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Marathon",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.65,
+          "offset": "+",
+          "access": "141.3",
+          "location": "Marco Island",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.8125,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Marco Island",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.4,
+          "offset": "+",
+          "access": "RAN 1 141.3",
+          "location": "Marco Island, Marriott Resort",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 441.9,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Margate",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 441.9,
+          "offset": "+",
+          "access": "CC 15",
+          "location": "Margate",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.025,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Margate, ATT Microwave Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.95,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Marianna",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.025,
+          "offset": "+",
+          "access": "118.8",
+          "location": "Melbourne",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.3375,
+          "offset": "+",
+          "access": "CC 9",
+          "location": "Melbourne",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.825,
+          "offset": "+",
+          "access": "CC 1 NAC 293 RAN 1",
+          "location": "Melbourne",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9,
+          "offset": "+",
+          "access": "RAN 1 118.8",
+          "location": "Melbourne, FIT",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.425,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Melbourne, Melbourne Fire Training Center",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.325,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Melbourne, Trinity Towers",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.025,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.075,
+          "offset": "+",
+          "access": "",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.1,
+          "offset": "+",
+          "access": "88.5",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.15,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.175,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Miami",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.225,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.325,
+          "offset": "+",
+          "access": "156.7",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.525,
+          "offset": "+",
+          "access": "88.5",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.6625,
+          "offset": "+",
+          "access": "CC 6",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.7,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Miami",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.725,
+          "offset": "+",
+          "access": "",
+          "location": "Miami",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 443.025,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.075,
+          "offset": "+",
+          "access": "CC 0 107.2",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.175,
+          "offset": "+",
+          "access": "CC 9",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.225,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.3,
+          "offset": "+",
+          "access": "D315",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.325,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.425,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.55,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.775,
+          "offset": "+",
+          "access": "156.7",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.9,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.2,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.275,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.325,
+          "offset": "+",
+          "access": "",
+          "location": "MIAMI",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.325,
+          "offset": "+",
+          "access": "156.7",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.375,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4625,
+          "offset": "+",
+          "access": "CSQ",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.525,
+          "offset": "+",
+          "access": "114.8",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.6,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.8,
+          "offset": "+",
+          "access": "NAC 55 94.8",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9875,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.75,
+          "offset": "+",
+          "access": "CC 12",
+          "location": "Miami Gardens",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.6,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Miami, Doral",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4,
+          "offset": "+",
+          "access": "CC 1 100.0",
+          "location": "Milton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.725,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Milton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.925,
+          "offset": "+",
+          "access": "",
+          "location": "Milton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.975,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Milton, NAS Whiting Field",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.1,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Miramar",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.8,
+          "offset": "+",
+          "access": "CC 0",
+          "location": "Mount Dora",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.6,
+          "offset": "+",
+          "access": "82.5",
+          "location": "Murdock",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 441.5,
+          "offset": "+",
+          "access": "",
+          "location": "Naples",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.75,
+          "offset": "+",
+          "access": "67.0",
+          "location": "Naples",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.1,
+          "offset": "+",
+          "access": "67.0",
+          "location": "Naples",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.9,
+          "offset": "+",
+          "access": "67.0",
+          "location": "Naples",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.875,
+          "offset": "+",
+          "access": "67.0",
+          "location": "Naples",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9,
+          "offset": "+",
+          "access": "67.0",
+          "location": "Naples",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.725,
+          "offset": "+",
+          "access": "",
+          "location": "Naples, Airport",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4875,
+          "offset": "+",
+          "access": "",
+          "location": "Naples, Pelican Bay",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9875,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Naples, Pelican Bay",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.275,
+          "offset": "+",
+          "access": "",
+          "location": "Naples, Wiggins State Park",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.475,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Nassauville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.2,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Navarre",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.2,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "New Port Richey",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.125,
+          "offset": "+",
+          "access": "CC 10",
+          "location": "North Dade",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.6,
+          "offset": "+",
+          "access": "94.8",
+          "location": "North Key Largo",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.2875,
+          "offset": "+",
+          "access": "CC 8 94.8",
+          "location": "North Key Largo",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.975,
+          "offset": "+",
+          "access": "110.9",
+          "location": "North Miami",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.1375,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "North Palm Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 441.975,
+          "offset": "+",
+          "access": "CC 5 100.0",
+          "location": "Ocala",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.775,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Ocala",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.025,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Ocala",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.425,
+          "offset": "+",
+          "access": "",
+          "location": "Ocala",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.875,
+          "offset": "+",
+          "access": "",
+          "location": "Ocala, Sheriff&amp;#039;s Office Complex",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.05,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Okeechobee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.5,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Orange Park",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.0875,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Orange Park, Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 440.575,
+          "offset": "+",
+          "access": "CC 0",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.0375,
+          "offset": "+",
+          "access": "RAN 1",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.075,
+          "offset": "+",
+          "access": "NAC A55 103.5",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.25,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.7,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.05,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.1375,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.1625,
+          "offset": "+",
+          "access": "CC 11",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.2375,
+          "offset": "+",
+          "access": "CC 9",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.275,
+          "offset": "+",
+          "access": "",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.625,
+          "offset": "+",
+          "access": "",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.85,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.975,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.8,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Orlando",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.4,
+          "offset": "+",
+          "access": "D411",
+          "location": "Orlando, Airport",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.55,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Orlando, Downtown",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.1,
+          "offset": "+",
+          "access": "CC 2 D423",
+          "location": "Orlando, Florida Mall",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.1,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Orlando, Marriott Hotel",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 443.525,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Orlando, MCO",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.125,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Orlando, Orange Co Convention Ctr",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.375,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Orlando, UCF",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.65,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Ormond Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.825,
+          "offset": "+",
+          "access": "118.8",
+          "location": "Ormond Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.875,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Ormond Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.95,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Oviedo",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.55,
+          "offset": "+",
+          "access": "CC 1 103.5",
+          "location": "Paisley",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.1,
+          "offset": "+",
+          "access": "CC 10",
+          "location": "Palm Beach Gardens",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.225,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Palm Beach Gardens, I-95/PGA Blvd",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4,
+          "offset": "+",
+          "access": "NAC 293 110.9",
+          "location": "Palm Beach Gardens, PGA Blvd/Military Trl",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.3,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Palm Coast",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.8,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Palm Harbor, Fire Sta 65",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.1,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Panama City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.175,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Panama City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.25,
+          "offset": "+",
+          "access": "CC 6 100.0",
+          "location": "Panama City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.5,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Panama City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4625,
+          "offset": "+",
+          "access": "",
+          "location": "Pembroke Pines",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.775,
+          "offset": "+",
+          "access": "88.5",
+          "location": "Pembroke Pines",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 443.7,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Pensacola",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.45,
+          "offset": "+",
+          "access": "NAC 184",
+          "location": "Pensacola",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.325,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Pensacola, EOC",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 443.85,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Pensacola, Fire Sta 16",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.1,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Perry",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.1,
+          "offset": "+",
+          "access": "NAC 293 100.0",
+          "location": "Perry",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.675,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Plant City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.775,
+          "offset": "+",
+          "access": "RAN 1",
+          "location": "Plant City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 441.425,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Plantation",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 443.4,
+          "offset": "+",
+          "access": "NAC 123",
+          "location": "Plantation",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.45,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Plantation Key",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.3625,
+          "offset": "+",
+          "access": "CC 8 94.8",
+          "location": "Plantation Key",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.7875,
+          "offset": "+",
+          "access": "CC 1 67.0",
+          "location": "Polk City",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.275,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Polk City, Polk Correctional",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 441.8,
+          "offset": "+",
+          "access": "NAC 293 110.9",
+          "location": "Pompano Beach, John Knox Village",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.35,
+          "offset": "+",
+          "access": "CC 11",
+          "location": "Pompano Beach, John Knox Village",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.925,
+          "offset": "+",
+          "access": "CC 1 136.5",
+          "location": "Port Charlotte",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.6,
+          "offset": "+",
+          "access": "",
+          "location": "Port Charlotte, Murdock",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.65,
+          "offset": "+",
+          "access": "",
+          "location": "Port Richey",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.7625,
+          "offset": "+",
+          "access": "RAN 1",
+          "location": "Port Richey",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 441.825,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Port Saint Joe, EOC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.0,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Port Saint Lucie",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.65,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Port Saint Lucie",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.8375,
+          "offset": "+",
+          "access": "CC 9",
+          "location": "Port Saint Lucie",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.0,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Port Saint Lucie",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.35,
+          "offset": "+",
+          "access": "141.3",
+          "location": "Port Saint Lucie",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.475,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Port Saint Lucie, High School",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.575,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Port Saint Lucie, Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.35,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Princeton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.6875,
+          "offset": "+",
+          "access": "CC 0",
+          "location": "Princeton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 433.0,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Punta Gorda",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.85,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Punta Gorda",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.975,
+          "offset": "+",
+          "access": "136.5",
+          "location": "Punta Gorda",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.0875,
+          "offset": "+",
+          "access": "RAN 1",
+          "location": "Riverview",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.425,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Riverview",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.6375,
+          "offset": "+",
+          "access": "CC 10",
+          "location": "Riviera Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.925,
+          "offset": "+",
+          "access": "131.8",
+          "location": "Riviera Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.525,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Rockledge",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.875,
+          "offset": "+",
+          "access": "CC 0",
+          "location": "Saint Augustine",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.8,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Saint Augustine, I-95/FL-16",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.15,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Saint Augustine, Marineland",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.1,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Saint Cloud",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.9,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Saint Petersburg",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.7625,
+          "offset": "+",
+          "access": "RAN 1",
+          "location": "Saint Petersburg",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.925,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Saint Petersburg",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.375,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Saint Petersburg",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.475,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Saint Petersburg",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9625,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Saint Petersburg, Downtown",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.25,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Saint Petersburg, Skyway Bridge",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.3,
+          "offset": "+",
+          "access": "",
+          "location": "Sanford",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.425,
+          "offset": "+",
+          "access": "",
+          "location": "Sanibel Island",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.55,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Sarasota",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.8,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Sarasota",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.925,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Sarasota",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.475,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Sarasota, Comcast Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.4,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Scout Key",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.325,
+          "offset": "+",
+          "access": "CC 8 94.8",
+          "location": "Scout Key",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.35,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Sebastian",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.375,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Sebastian",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.775,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Seffner",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 444.4,
+          "offset": "+",
+          "access": "192.8",
+          "location": "Seminole",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.7375,
+          "offset": "+",
+          "access": "CC 9",
+          "location": "South Dade",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.8,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Spring Hill, Oak Hill Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.8,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Starke",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.05,
+          "offset": "+",
+          "access": "CC 8 94.8",
+          "location": "Stock Island",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.7,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Stock Island",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.15,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Stuart",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.975,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Stuart",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9625,
+          "offset": "+",
+          "access": "CC 5",
+          "location": "Stuart, Allapatah Flats",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.075,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Stuart, Palm Lake Park",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9,
+          "offset": "+",
+          "access": "CC 7",
+          "location": "Stuart, Stuart Public Services",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.725,
+          "offset": "+",
+          "access": "123.0",
+          "location": "Summerfield",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.0625,
+          "offset": "+",
+          "access": "RAN 1",
+          "location": "Sumterville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.25,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Sun City Center",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.225,
+          "offset": "+",
+          "access": "",
+          "location": "Sun City Center, Kings Point Retirement Community",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.45,
+          "offset": "+",
+          "access": "NAC 293 162.2",
+          "location": "Sun City Center, Sun Towers",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.95,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Sunny Isles Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.05,
+          "offset": "+",
+          "access": "110.9",
+          "location": "Sunrise",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.1,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Tallahassee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.85,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Tallahassee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.1375,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Tallahassee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.95,
+          "offset": "+",
+          "access": "NAC 293 94.8",
+          "location": "Tallahassee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.8,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Tallahassee",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4,
+          "offset": "+",
+          "access": "RAN 1 131.8",
+          "location": "Tallahassee, HCA Florida Capital Hosp",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.0,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Tallahassee, Memorial HealthCare",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.5,
+          "offset": "+",
+          "access": "94.8",
+          "location": "Tallahassee, State EOC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.7125,
+          "offset": "+",
+          "access": "CC 7",
+          "location": "Tamarac",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 440.3,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Tampa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.725,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Tampa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.85,
+          "offset": "+",
+          "access": "NAC 293 146.2",
+          "location": "Tampa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.9875,
+          "offset": "+",
+          "access": "",
+          "location": "Tampa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.25,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Tampa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.6,
+          "offset": "+",
+          "access": "88.5",
+          "location": "Tampa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.8125,
+          "offset": "+",
+          "access": "",
+          "location": "Tampa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9,
+          "offset": "+",
+          "access": "141.3",
+          "location": "Tampa",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.6,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Tampa, Airport",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 440.1,
+          "offset": "+",
+          "access": "NAC 293 162.2",
+          "location": "Tampa, Downtown",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.525,
+          "offset": "+",
+          "access": "NAC 293 146.2",
+          "location": "Tampa, Downtown",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.025,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Tampa, Raymond James Stadium",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.225,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Tampa, Regions Bldg",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.525,
+          "offset": "+",
+          "access": "141.3",
+          "location": "Tampa, Rocky Pt",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.75,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Tampa, St Joseph's Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.0,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Tampa, USF",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.1125,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Tampa, USF",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.45,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Tarpon Springs, Hospital",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.9,
+          "offset": "+",
+          "access": "NAC 293 103.5",
+          "location": "Tavares",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.6125,
+          "offset": "+",
+          "access": "CC 1 103.5",
+          "location": "Tavares",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 441.875,
+          "offset": "+",
+          "access": "103.5",
+          "location": "The Villages",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.15,
+          "offset": "+",
+          "access": "103.5",
+          "location": "The Villages",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.25,
+          "offset": "+",
+          "access": "110.9",
+          "location": "The Villages",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.5,
+          "offset": "+",
+          "access": "CC 1 103.5",
+          "location": "The Villages",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 441.5,
+          "offset": "+",
+          "access": "156.7",
+          "location": "Titusville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.7375,
+          "offset": "+",
+          "access": "CC 9",
+          "location": "Titusville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.15,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Titusville",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.4,
+          "offset": "+",
+          "access": "91.5",
+          "location": "Titusville, KSC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.575,
+          "offset": "+",
+          "access": "CC 3",
+          "location": "Titusville, KSC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.675,
+          "offset": "+",
+          "access": "CC 3",
+          "location": "Titusville, KSC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.925,
+          "offset": "+",
+          "access": "NAC A55 131.8",
+          "location": "Titusville, KSC",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.85,
+          "offset": "+",
+          "access": "CC 13",
+          "location": "Titusville, Parrish Med Ctr",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.05,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Venice",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.575,
+          "offset": "+",
+          "access": "100.0",
+          "location": "Venice, I-75",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.4,
+          "offset": "+",
+          "access": "RAN 1",
+          "location": "Venice, Rt 681/Rt 41",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.95,
+          "offset": "+",
+          "access": "RAN 1 100.0",
+          "location": "Verna",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.3125,
+          "offset": "+",
+          "access": "",
+          "location": "Verna",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.6,
+          "offset": "+",
+          "access": "CC 1 NAC 293",
+          "location": "Vero Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.7,
+          "offset": "+",
+          "access": "",
+          "location": "Vero Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.725,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Vero Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.85,
+          "offset": "+",
+          "access": "107.2",
+          "location": "Vero Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.325,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Wauchula",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.05,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Wellington",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.775,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "Wesley Chapel",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.575,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Wesley Chapel, I-75/Exit 279",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.9375,
+          "offset": "+",
+          "access": "CC 9",
+          "location": "West Boca Raton",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.125,
+          "offset": "+",
+          "access": "107.2",
+          "location": "West Palm Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.875,
+          "offset": "+",
+          "access": "CC 8",
+          "location": "West Palm Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.9125,
+          "offset": "+",
+          "access": "CC 1",
+          "location": "West Palm Beach",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 443.225,
+          "offset": "+",
+          "access": "103.5",
+          "location": "Wildwood",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 444.575,
+          "offset": "+",
+          "access": "91.5",
+          "location": "Wildwood",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.675,
+          "offset": "+",
+          "access": "131.8",
+          "location": "Wilton Manors",
+          "status": "Unknown"
+        },
+        {
+          "freq_mhz": 442.525,
+          "offset": "+",
+          "access": "NAC 0ca 103.5",
+          "location": "Winter Park",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 442.9,
+          "offset": "+",
+          "access": "127.3",
+          "location": "Yulee, FDOT Tower",
+          "status": "Operational"
+        },
+        {
+          "freq_mhz": 441.425,
+          "offset": "+",
+          "access": "146.2",
+          "location": "Zephyrhills",
+          "status": "Operational"
+        }
+      ]
+    }
+  ]
+}
