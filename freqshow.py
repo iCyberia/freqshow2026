@@ -18,6 +18,7 @@ from gpiozero import Button, RotaryEncoder
 
 import display
 import sdr_backend
+from sound_control import SoundControl
 
 # Encoder 1: tuning / settings navigation
 ENC1_A = 5
@@ -87,6 +88,10 @@ SIG_DB_SMOOTH_ALPHA = 0.02
 SPECTRUM_SMOOTH_ALPHA = 0.22
 PEAK_LABEL_SMOOTH_ALPHA = 0.06
 PEAK_MARKER_COUNT = 3
+VIEW_MODE_GAIN = 0
+VIEW_MODE_ZOOM = 1
+VIEW_MODE_LABELS = ["Gain", "Zoom"]
+ZOOM_LEVELS = [1, 2, 4, 8, 16, 32]
 
 GEAR_HIT_RECT = getattr(display, 'GEAR_HIT_RECT', display.GEAR_RECT.inflate(60, 60))
 
@@ -114,6 +119,8 @@ def load_settings():
         "filter_freq_smoothing": False,
         "filter_impulse_blanking": False,
         "filter_display_clamp": False,
+        "sound_volume": 50,
+        "sound_muted": False,
     }
 
     try:
@@ -664,6 +671,39 @@ def apply_visual_squelch(bins, level):
     return [0.0 if v < threshold else v for v in bins]
 
 
+
+def transform_bins_for_view(bins, zoom_level):
+    if not bins:
+        return bins
+
+    zoom_level = max(1, int(zoom_level))
+    if zoom_level == 1:
+        return list(bins)
+
+    width = len(bins)
+    center = (width - 1) / 2.0
+    out = []
+
+    for x in range(width):
+        src_x = center + ((x - center) / zoom_level)
+        src_x = max(0.0, min(width - 1.0, src_x))
+
+        left = int(src_x)
+        right = min(width - 1, left + 1)
+        frac = src_x - left
+
+        value = bins[left] * (1.0 - frac) + bins[right] * frac
+        out.append(value)
+
+    return out
+
+
+def get_left_mid_text(enc2_mode, gain_index, zoom_index):
+    if enc2_mode == VIEW_MODE_ZOOM:
+        return f"Zoom {ZOOM_LEVELS[zoom_index]}x"
+    return f"Gain {sdr_backend.GAIN_OPTIONS[gain_index]}"
+    
+
 def is_scan_stop_signal(bins, level, radius=4):
     if not bins:
         return False
@@ -819,6 +859,8 @@ def main():
     stop_event = threading.Event()
 
     try:
+        sound = SoundControl()
+
         temp_sdr = sdr_backend.init_sdr()
         sdr_backend.GAIN_OPTIONS = sdr_backend.get_supported_gains(temp_sdr)
         print("Supported gains:", sdr_backend.GAIN_OPTIONS, flush=True)
@@ -835,6 +877,8 @@ def main():
         settings_data = load_settings()
         band_index = max(0, min(settings_data.get("band_index", 0), len(BAND_PRESETS) - 1))
         peak_marker_count = max(0, min(settings_data.get("peak_marker_count", 3), 4))
+        zoom_index = max(0, min(settings_data.get("zoom_index", 0), len(ZOOM_LEVELS) - 1))
+        enc2_mode = max(0, min(settings_data.get("enc2_mode", VIEW_MODE_GAIN), len(VIEW_MODE_LABELS) - 1))
 
         tune_step_index = settings_data["tune_step_index"]
         center_freq_hz = settings_data["center_freq_hz"]
@@ -843,6 +887,8 @@ def main():
         gain_index = settings_data["gain_index"]
         brightness_index = settings_data["brightness_index"]
         squelch_level = settings_data.get("squelch_level", 3)
+        sound_volume = max(0, min(99, int(settings_data.get("sound_volume", 50))))
+        sound_muted = bool(settings_data.get("sound_muted", False))
         last_settings_selected = settings_data.get("last_settings_selected", 0)
 
         filter_median = settings_data.get("filter_median", False)
@@ -877,6 +923,8 @@ def main():
         filters_selected = 0
         wifi_menu_open = False
         wifi_menu_selected = 0
+        sound_menu_open = False
+        sound_menu_selected = 0
 
         repeater_bands = load_repeaters_db()
         repeaters_bands_open = False
@@ -966,6 +1014,13 @@ def main():
 
         display.apply_brightness(lcd, BRIGHTNESS_OPTIONS[brightness_index])
 
+        if sound.available():
+            try:
+                sound.set_volume(sound_volume)
+                sound.set_mute(sound_muted)
+            except Exception as e:
+                print(f"Sound init failed: {e}", flush=True)
+
         screen = pygame.display.set_mode((display.WIDTH, display.HEIGHT), pygame.FULLSCREEN)
         pygame.display.set_caption('FreqShow')
         pygame.mouse.set_visible(False)
@@ -987,7 +1042,7 @@ def main():
         top_surface = display.render_top_surface(top_static, font_big, font_band, [0.0] * display.WIDTH, center_freq_hz, sdr_backend.SAMPLE_RATE_OPTIONS[sample_rate_index], peak_label_x_smooth, peak_marker_count)
 
         mid_static = display.build_mid_static_surface()
-        gain_text = f"{sdr_backend.GAIN_OPTIONS[gain_index]}"
+        gain_text = get_left_mid_text(enc2_mode, gain_index, zoom_index)
         step_text = display.format_step_mhz(TUNE_STEPS_HZ[tune_step_index])
         mid_surface = display.render_mid_surface(
             mid_static,
@@ -1007,6 +1062,10 @@ def main():
                 "wf_speed_index": wf_speed_index,
                 "wf_avg_index": wf_avg_index,
                 "brightness_index": brightness_index,
+                "peak_marker_count": peak_marker_count,
+                "zoom_index": zoom_index,
+                "enc2_mode": enc2_mode,
+                "band_index": band_index,
                 "tune_step_index": tune_step_index,
                 "squelch_level": squelch_level,
                 "last_settings_selected": last_settings_selected,
@@ -1030,6 +1089,8 @@ def main():
                 "filter_impulse_blanking": filter_impulse_blanking,
                 "filter_display_clamp": filter_display_clamp,
                 "squelch_level": squelch_level,
+                "sound_volume": sound_volume,
+                "sound_muted": sound_muted,
             }
 
         last_saved_snapshot = current_settings_snapshot()
@@ -1306,6 +1367,65 @@ def main():
                         enc2_button_latch = False
 
 
+
+                elif sound_menu_open:
+                    items = [
+                        f"Mute: {'ON' if sound_muted else 'OFF'}",
+                        f"Volume: {sound_volume}",
+                        "Back",
+                    ]
+
+                    enc1_steps = enc1.steps
+                    enc1_delta = enc1_steps - enc1_last_steps
+                    if enc1_delta != 0:
+                        sound_menu_selected = max(0, min(len(items) - 1, sound_menu_selected + enc1_delta))
+                        enc1_last_steps = enc1_steps
+                        last_user_input_time = time.time()
+
+                    enc2_steps = enc2.steps
+                    enc2_delta = enc2_steps - enc2_last_steps
+                    if enc2_delta != 0:
+                        if sound_menu_selected == 0:
+                            sound_muted = not sound_muted
+                            if sound.available():
+                                try:
+                                    sound.set_mute(sound_muted)
+                                except Exception as e:
+                                    print(f"Sound mute failed: {e}", flush=True)
+                            settings_dirty = True
+                        elif sound_menu_selected == 1:
+                            sound_volume = max(0, min(99, sound_volume + enc2_delta))
+                            if sound.available():
+                                try:
+                                    sound.set_volume(sound_volume)
+                                except Exception as e:
+                                    print(f"Sound volume failed: {e}", flush=True)
+                            settings_dirty = True
+
+                        enc2_last_steps = enc2_steps
+                        last_user_input_time = time.time()
+
+                    if btn1.is_pressed and not enc1_button_latch:
+                        if sound_menu_selected == 0:
+                            sound_muted = not sound_muted
+                            if sound.available():
+                                try:
+                                    sound.set_mute(sound_muted)
+                                except Exception as e:
+                                    print(f"Sound mute failed: {e}", flush=True)
+                            settings_dirty = True
+                            last_user_input_time = time.time()
+                        elif sound_menu_selected == 2:
+                            sound_menu_open = False
+                        enc1_button_latch = True
+                    elif not btn1.is_pressed:
+                        enc1_button_latch = False
+
+                    if btn2.is_pressed and not enc2_button_latch:
+                        sound_menu_open = False
+                        enc2_button_latch = True
+                    elif not btn2.is_pressed:
+                        enc2_button_latch = False
                 elif wifi_menu_open:
                     items = ["Wi-Fi: ON", "Wi-Fi: OFF", "Cancel"]
 
@@ -1496,6 +1616,9 @@ def main():
                         elif selected_item == "wifi":
                             wifi_menu_open = True
                             wifi_menu_selected = 0
+                        elif selected_item == "sound":
+                            sound_menu_open = True
+                            sound_menu_selected = 0
                         elif selected_item == "restart":
                             save_settings(current_settings_snapshot())
                             pygame.quit()
@@ -1583,12 +1706,19 @@ def main():
                         mid_dirty = True
                         bot_full_dirty = True
                 else:
-                    if scan_active and (btn2_press_start is not None) and (not btn2_longpress_done):
-                        scan_active = False
-                        last_user_input_time = time.time()
-                        top_dirty = True
-                        mid_dirty = True
-                        bot_full_dirty = True
+                    if (btn2_press_start is not None) and (not btn2_longpress_done):
+                        if scan_active:
+                            scan_active = False
+                            show_scan_confirm = False
+                            scan_confirm_until = 0.0
+                            last_user_input_time = time.time()
+                            top_dirty = True
+                            mid_dirty = True
+                            bot_full_dirty = True
+                        else:
+                            enc2_mode = VIEW_MODE_ZOOM if enc2_mode == VIEW_MODE_GAIN else VIEW_MODE_GAIN
+                            last_user_input_time = time.time()
+                            mid_dirty = True
                     btn2_press_start = None
                     btn2_longpress_done = False
 
@@ -1626,13 +1756,20 @@ def main():
                 enc2_steps = enc2.steps
                 enc2_delta = enc2_steps - enc2_last_steps
                 if enc2_delta != 0:
-                    gain_index = max(0, min(len(sdr_backend.GAIN_OPTIONS) - 1, gain_index + enc2_delta))
                     enc2_last_steps = enc2_steps
-                    settings_dirty = True
                     last_user_input_time = time.time()
                     mid_dirty = True
-                    with shared["lock"]:
-                        shared["gain_value"] = sdr_backend.GAIN_OPTIONS[gain_index]
+
+                    if enc2_mode == VIEW_MODE_GAIN:
+                        gain_index = max(0, min(len(sdr_backend.GAIN_OPTIONS) - 1, gain_index + enc2_delta))
+                        settings_dirty = True
+                        with shared["lock"]:
+                            shared["gain_value"] = sdr_backend.GAIN_OPTIONS[gain_index]
+                    else:
+                        zoom_index = max(0, min(len(ZOOM_LEVELS) - 1, zoom_index + enc2_delta))
+                        peak_label_x_smooth = None
+                        top_dirty = True
+                        bot_full_dirty = True
 
             have_fresh_bins = False
             with shared["lock"]:
@@ -1643,6 +1780,7 @@ def main():
 
             bins = last_bins
             bins = apply_visual_squelch(bins, squelch_level)
+            view_bins = transform_bins_for_view(bins, ZOOM_LEVELS[zoom_index])
             now = time.time()
 
             if have_fresh_bins:
@@ -1651,7 +1789,7 @@ def main():
                 while recent_bins and recent_bins[0][0] < cutoff:
                     recent_bins.popleft()
 
-            sig_db = get_center_signal_db(bins, display_min_db, display_max_db, radius=6)
+            sig_db = get_center_signal_db(view_bins, display_min_db, display_max_db, radius=6)
             if sig_db_smoothed is None:
                 sig_db_smoothed = sig_db
             else:
@@ -1676,7 +1814,7 @@ def main():
             should_refresh_top = top_dirty or (have_fresh_bins and (spectrum_frame_counter % spectrum_divider == 0))
 
             if should_refresh_top:
-                for i, v in enumerate(bins):
+                for i, v in enumerate(view_bins):
                     display_bins[i] = (display_bins[i] * (1.0 - SPECTRUM_SMOOTH_ALPHA)) + (v * SPECTRUM_SMOOTH_ALPHA)
 
                 if display_bins:
@@ -1702,7 +1840,7 @@ def main():
                 top_dirty = False
 
             if mid_dirty:
-                gain_text = f"{sdr_backend.GAIN_OPTIONS[gain_index]}"
+                gain_text = get_left_mid_text(enc2_mode, gain_index, zoom_index)
                 step_text = display.format_step_mhz(TUNE_STEPS_HZ[tune_step_index])
                 mid_surface = display.render_mid_surface(
                     mid_static,
@@ -1769,7 +1907,7 @@ def main():
                 row = pygame.Surface((display.WIDTH, 1))
                 avg_alpha = WF_AVG_OPTIONS[wf_avg_index]
 
-                for x, v in enumerate(bins):
+                for x, v in enumerate(view_bins):
                     new_color = display.color_from_power(v)
                     old_color = waterfall.get_at((x, 0))[:3]
                     pixel = display.lerp_color(new_color, old_color, avg_alpha)
@@ -1886,6 +2024,19 @@ def main():
                         "Band Limit",
                         [bp[0] for bp in BAND_PRESETS],
                         band_menu_selected,
+                    )
+                elif sound_menu_open:
+                    display.draw_simple_menu(
+                        screen,
+                        font_title,
+                        font_small,
+                        "Sound",
+                        [
+                            f"Mute: {'ON' if sound_muted else 'OFF'}",
+                            f"Volume: {sound_volume}",
+                            "Back",
+                        ],
+                        sound_menu_selected,
                     )
                 elif wifi_menu_open:
                     display.draw_simple_menu(

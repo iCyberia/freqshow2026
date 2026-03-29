@@ -320,7 +320,7 @@ def build_mid_static_surface() -> pygame.Surface:
 
 def render_mid_surface(mid_static: pygame.Surface, font_mid, gain_text, step_text, sample_rate_hz) -> pygame.Surface:
     surf = mid_static.copy()
-    gain_label = font_mid.render(f"Gain {gain_text}", True, WHITE)
+    gain_label = font_mid.render(str(gain_text), True, WHITE)
     step_label = font_mid.render(f"Step {step_text}", True, WHITE)
     sr_label = font_mid.render(f"SR {sample_rate_hz / 1_000_000:.3f}M", True, WHITE)
     y = (MID_H - gain_label.get_height()) // 2
@@ -347,6 +347,7 @@ def settings_items():
         "peak_markers",
         "wf_average",
         "brightness",
+        "sound",
         "wifi",
         "restart",
         "quit",
@@ -384,6 +385,7 @@ def setting_label(item):
         "peak_markers": "Peak Markers",
         "wf_average": "WF Average",
         "brightness": "Brightness",
+        "sound": "Sound",
         "wifi": "Wi-Fi",
         "filter_median": "Median Filter (SLOW)",
         "filter_temporal_avg": "Temporal Avg",
@@ -459,6 +461,8 @@ def setting_value_text(
         return f"{wf_avg_options[wf_avg_index]:.2f}"
     if item == "brightness":
         return f"{brightness_options[brightness_index]}%"
+    if item == "sound":
+        return ""
     if item == "wifi":
         return ""
     if item == "squelch":
